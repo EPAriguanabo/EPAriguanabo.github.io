@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 45px;
+    position: fixed;
+    background-color: white;
+    box-shadow: -10px 5px 5px lightgrey;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+nav ul li{
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+nav ul li:hover{
+    background-color: lightgray;
+    
+}
+header{
+    margin-top: 25px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+header img{
+    width: 70px;
+    height: 70px;
+}
+header h1{
+    font-size: 25px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.about img{
+    width: 70%;
+    margin: 5px 10px;
+}
+.about p{
+    text-align: justify;
+    padding: 5px;
+    line-height: 20px;
+    width: 85%;
+}
+.actividades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.actividades .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.actividades .card img{
+    width: 80%;
+    padding: 20px 10px;
+    border-radius: 35px;
+}
+.actividades .card h3{
+    padding: 5px;
+}
+.actividades .card p{
+    text-align: justify;
+    width: 85%;
+    padding: 5px;
+}
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.testimonios .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: hsl(0, 0%, 94%);
+    margin: 5px 0;
+    width: 80%;
+    border-radius: 15px;
+}
+.testimonios h3{
+    margin: 0 0 10px 0;
+}
+.equipo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.equipo .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+    background-color: hsl(0, 0%, 94%);;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+.equipo .card img{
+    border-radius: 50%;
+    border: none;
+    width: 40%;
+}
+.equipo .card h3{
+    padding: 5px;
+}
+.equipo .card p{
+    text-align: justify;
+    width: 85%;
+    padding: 5px;
+}
+.donaciones{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.donaciones p, .donaciones h2{
+    padding: 10px 5px;
+}
+.contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.contacto form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+.contacto input{
+    padding: 5px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: solid 1px black;
+}
+.contacto .enviar{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    font-size: 15px;
+    background-color: lightgray;
+}
+footer{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px;
+}
+footer.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .social a img{
+    width: 25px;
+    margin: 10px;
+}
